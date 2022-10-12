@@ -1,0 +1,41 @@
+
+html {
+    background-color: cadetblue;
+}
+
+
+body {
+    width: 600px; /*заставляет тело быть всегда 600 пикселей в ширину*/
+    margin: 100px auto; /* по вертикали | по горизонтали */
+    background-color: lightseagreen;
+    padding: 0 20px 20px 20px; /* сверху | справа | снизу | слева */
+    border: 2px solid blue; /* устанавливает сплошную синию рамку шириной 2 пикселя со всех сторон тела*/
+    }
+
+h1 {
+    margin: 0px;
+    padding: 20px 10px; /* по вертикали | по горизонтали */
+    color: aliceblue;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 3px 3px 1px black; /* тень 3гор., 3верт. 1 размытось и цвет */
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+img {
+    display: block; /*дать изображению блочное поведение*/
+    margin: 0 auto;
+    width: 211px;
+    height: 282px;
+}
+
+a:hover { /* задает стиль отображения ссылки при наведении на неё курсора */
+    color: gray;
+}

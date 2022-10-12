@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta name="author" content="Pavel Ivanin">
+        <meta name="description" content="The site talks about the IPG hobby">
         <title>Site IPG</title>
+        <link rel="shortcut icon" href="images/favicon.ico"> <!--Добавление иконки к title-->
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h2>My hobby is hockey</h2>
-        <img src="images/ipg.jpg" alt="Photo IPG">
+        <header>
+            <h1>My hobby</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Вы вернетесь на стартовыю страницу">Home</a></li>
+                <li><a href="about-me.html">About me</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>My hobby is hockey</h2>
+            <img src="images/ipg.jpg"
+                 alt="Photo IPG"
+                 title="Photo Ivanin Pavel">
+            <p>
+                I began playing hockey in seven class.
+                We went at ice rink with my <em>friends</em>. <!--em - выделение курсивом-->
+                We studied to skate for <strong>a year</strong>. <!--strong - выделение жирным-->
+                Now I play in hockey every saturday.
+                <abbr title="And so forth"> Asf.</abbr> <!--абривиатура - расшифровка при навидении курсора-->
+            </p>
+        </main>
+
+        <footer>
+            <p>©This site belongs to IPG.</p>
+        </footer>
     </body>
 </html>
